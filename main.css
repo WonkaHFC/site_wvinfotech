@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5c8ca4;
+    font-family: 'Poppins', sans-serif;
+    color: #0c2c4c;
+
+}
+
+header {
+    padding: 16px 0;
+    background-color: #0c2c4c;
+    color: #84e4f4;
+}
+
+header h1,
+section h2,
+strong {
+    font-weight: normal;
+}
+
+header,
+section h2 {
+    font-family: 'Protest Strike', sans-serif;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #84e4f4;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-img {
+    height: 500px;
+    margin-right: 32px;
+}
+
+section .container {
+    align-items: center;
+}
+
+section {
+    padding: 32px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: #0c2c4c;
+}
+
+section h2 strong {
+    color: #84e4f4;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.articles article img {
+    height: 180px;
+}
+
+.articles article {
+    width: 30%;
+    padding: 48px;
+}
+
+#services h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.services-list {
+    width: 100%;
+    align-items: center;
+}
+
+.articles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.articles img {
+    max-width: 400px;
+}
+
+#contact {
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+#contact h2 {
+    font-size: 32px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 480px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #0c2c4c;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: center;
+}
+
+
+footer {
+    background-color: #0c2c4c;
+    color: #84e4f4;
+    padding: 16px 0;
+    text-align: center;
+}
